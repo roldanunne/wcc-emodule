@@ -1,4 +1,3 @@
-import 'package:auto_size_text_plus/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:wcc_emodule/module/global/app_theme.dart';

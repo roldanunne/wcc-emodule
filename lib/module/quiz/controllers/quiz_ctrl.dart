@@ -76,6 +76,7 @@ class QuizController extends GetxController {
   } 
 
   void loadQuestion() {
+      questionList.shuffle();
       questionLength.value = questionList.length;
       correctAnswer.value = 0;
       questionNumber.value = 1;
@@ -106,6 +107,7 @@ class QuizController extends GetxController {
         i++;
       }
       questionItemList.assignAll(list); 
+      // questionItemList.shuffle();
       correctAnswerList.assignAll(tempAnswer);
       userAnswerList.assignAll(tempUserAnswerListr);
       isQuestionLocked.assignAll(tempLocked);

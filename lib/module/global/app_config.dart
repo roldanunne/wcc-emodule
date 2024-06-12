@@ -2,8 +2,8 @@
 class AppConfig {
   AppConfig._();
 
-  // static const  appState = 'live'; 
-  static const  appState = 'dev'; 
+  static const  appState = 'live'; 
+  // static const  appState = 'dev'; 
 
   // Domain
   static const webUrl = (appState=='live')
